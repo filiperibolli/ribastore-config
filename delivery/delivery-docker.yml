@@ -3,6 +3,7 @@ spring:
     password: root
     username: root
     url: 'jdbc:mysql://db-delivery:3307/delivery'
+  profiles: docker
   jpa:
     hibernate:
       ddl-auto: update
