@@ -2,7 +2,7 @@ spring:
   datasource:
     password: root
     username: root
-    url: 'jdbc:mysql://db-delivery:3307/delivery'
+    url: 'jdbc:mysql://test:3307/delivery'
   profiles: docker
   jpa:
     hibernate:
