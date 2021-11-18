@@ -2,7 +2,8 @@ spring:
   datasource:
     password: root
     username: root
-    url: 'jdbc:mysql://localhost:3306/estoque'
+    url: 'jdbc:mysql://mysql-estoque:3306/estoque'
+  profiles: docker
   jpa:
     hibernate:
       ddl-auto: update
