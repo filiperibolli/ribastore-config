@@ -2,7 +2,7 @@ spring:
   datasource:
     password: root
     username: root
-    url: 'jdbc:mysql://ribastore-bd:3306/estoque'
+    url: 'jdbc:mysql://ribastore-bd:3306/loja'
   profiles: docker
   jpa:
     hibernate:
