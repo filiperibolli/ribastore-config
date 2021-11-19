@@ -2,7 +2,7 @@ spring:
   datasource:
     password: root
     username: root
-    url: 'jdbc:mysql://mysql-estoque:3307/estoque'
+    url: 'jdbc:mysql://mysql-ribastore:3306/estoque'
   profiles: docker
   jpa:
     hibernate:
